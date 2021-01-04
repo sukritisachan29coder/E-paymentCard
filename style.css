@@ -1,0 +1,87 @@
+
+#main-div
+{
+   
+}
+#Div-1
+{
+  
+      position: relative;
+      z-index: 9;
+      background: whitesmoke;
+      width:480px;
+      height:270px;
+      border-radius: 5px 5px 5px 5px;
+      margin: auto;
+
+}
+#Div-1::before
+{
+    content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+right: 66%;
+bottom: 0;
+left: 0;
+background:darkgreen;
+}
+#qr-img
+{
+    align-content: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 7px 7px 7px 7px;
+    border: 8px solid rgba(248, 220, 7, 0.959);
+    
+}
+.para-1
+{
+    color: white;
+    font-family: cursive;
+    font-size: 0.9rem;
+    margin-left: 50px;
+    margin-top: -1px;
+}
+#logo-img
+{
+    margin-left: 270px;
+    transform: translateY(-210px);
+}
+.para-2
+{
+    color: darkgreen;
+    font-family: sans-serif;
+    font-weight: 530;
+    font-size: 0.9rem;
+    transform: translateY(-190px);
+    margin-left: 250px;
+    font-style: bold;
+    border: 1.5px solid darkgreen;
+    width: 32%;
+    border-left: hidden;
+    border-right: hidden;
+}
+.para-3,.para-4,.para-5,.para-6
+{
+    color: darkgreen;
+    transform: translateY(-190px);
+    margin-left: 250px;
+    font-family: cursive;
+    font-size: 0.9rem;
+}
+.para-4{
+    transform: translateY(-205px);
+}
+.para-5
+{
+    transform: translateY(-215px);
+    margin-left: 300px;
+}
+.para-6{
+    transform: translateY(-225px);
+}
+.para-3
+{
+    margin-left: 280px;
+}
